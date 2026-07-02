@@ -55,13 +55,13 @@ Model umożliwia analizę danych sprzedażowych w różnych przekrojach biznesow
 
 # Podgląd dashboardu
 
-## Widok główny
+### Widok główny
 
-![Dashboard sprzedaży i marży](dashboard-sprzedaz-marza.png)
+![Dashboard sprzedaży i marży](screenshot/dashboard-sprzedaz-marza.png)
 
-## Widok z zastosowanymi filtrami
+### Widok z zastosowanymi filtrami
 
-![Dashboard sprzedaży i marży - wybrane podkategorie](dashboard-sprzedaz-marza-wybrane-podkategorie.png)
+![Dashboard sprzedaży i marży - wybrane podkategorie](screenshot/dashboard-sprzedaz-marza-wybrane-podkategorie.png)
 
 ---
 
