@@ -6,7 +6,7 @@ Projekt przedstawia interaktywny dashboard stworzony w **Power BI**, umożliwiaj
 
 Celem projektu było przygotowanie raportu wspierającego analizę wyników sprzedażowych oraz identyfikację najbardziej rentownych grup produktowych.
 
-Dashboard umożliwia odpowiedź na pytania biznesowe, takie jak:
+Dashboard umożliwia odpowiedź na następujące pytania biznesowe:
 
 - Które podkategorie generują najwyższą sprzedaż?
 - Które produkty osiągają najwyższą marżę?
@@ -27,13 +27,13 @@ Dashboard umożliwia odpowiedź na pytania biznesowe, takie jak:
 
 ## Funkcjonalności raportu
 
-Raport zawiera między innymi:
+Raport zawiera:
 
 - analizę sprzedaży według kategorii i podkategorii,
 - analizę marży oraz marży procentowej,
 - wskaźniki KPI sprzedaży i marży,
 - formatowanie warunkowe,
-- wskaźniki KPI z ikonami,
+- ikony KPI,
 - miniwykresy (Sparklines),
 - dynamiczne filtrowanie danych według roku, kwartału oraz podkategorii.
 
@@ -53,15 +53,15 @@ Model umożliwia analizę danych sprzedażowych w różnych przekrojach biznesow
 
 ---
 
-## Podgląd dashboardu
+# Podgląd dashboardu
 
-### Widok główny
+## Widok główny
 
-![Dashboard sprzedaży i marży](screenshot/dashboard-sprzedaz-marza.png)
+![Dashboard sprzedaży i marży](dashboard-sprzedaz-marza.png)
 
-### Widok z zastosowanymi filtrami
+## Widok z zastosowanymi filtrami
 
-![Dashboard sprzedaży i marży - wybrane podkategorie](screenshot/dashboard-sprzedaz-marza-wybrane-podkategorie.png)
+![Dashboard sprzedaży i marży - wybrane podkategorie](dashboard-sprzedaz-marza-wybrane-podkategorie.png)
 
 ---
 
@@ -88,18 +88,9 @@ Projekt wykorzystuje między innymi następujące miary:
 
 ---
 
-## Wnioski biznesowe
+## Zakres zaprezentowanych umiejętności
 
-Dashboard umożliwia szybką identyfikację najbardziej rentownych kategorii i podkategorii produktów oraz ocenę realizacji celów sprzedażowych.
-
-Zastosowanie wskaźników KPI, formatowania warunkowego oraz miniwykresów pozwala szybko zidentyfikować obszary wymagające dalszej analizy i wspiera podejmowanie decyzji biznesowych.
-Dodałbym jeszcze jedną sekcję
-
-Na końcu README warto umieścić coś, co szczególnie doceniają rekruterzy:
-
-## Zakres umiejętności zaprezentowanych w projekcie
-
-W projekcie wykorzystano następujące elementy Power BI:
+W projekcie wykorzystano:
 
 - modelowanie danych,
 - tworzenie relacji pomiędzy tabelami,
@@ -111,3 +102,11 @@ W projekcie wykorzystano następujące elementy Power BI:
 - formatowanie warunkowe,
 - analizę sprzedaży i marży,
 - projektowanie raportów biznesowych.
+
+---
+
+## Wnioski biznesowe
+
+Dashboard umożliwia szybką identyfikację najbardziej rentownych kategorii i podkategorii produktów oraz ocenę realizacji celów sprzedażowych.
+
+Zastosowanie wskaźników KPI, formatowania warunkowego oraz miniwykresów pozwala szybko zidentyfikować obszary wymagające dalszej analizy i wspiera podejmowanie decyzji biznesowych.
