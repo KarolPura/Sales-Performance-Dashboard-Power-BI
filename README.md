@@ -57,11 +57,10 @@ Model umożliwia analizę danych sprzedażowych w różnych przekrojach biznesow
 
 ### Widok główny
 
-![Dashboard sprzedaży i marży](screenshot/dashboard-sprzedaz-marza.png)
-
+![Sales and Profitability Dashboard](dashboard-sprzedaz-marza.png)
 ### Widok z zastosowanymi filtrami
 
-![Dashboard sprzedaży i marży - wybrane podkategorie](screenshot/dashboard-sprzedaz-marza-wybrane-podkategorie.png)
+![Sales and Profitability Dashboard - Selected Subcategories](dashboard-sprzedaz-marza-wybrane-podkategorie.png)
 ---
 
 ## Zawartość repozytorium
