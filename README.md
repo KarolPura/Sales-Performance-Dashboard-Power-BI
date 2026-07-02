@@ -62,7 +62,6 @@ Model umożliwia analizę danych sprzedażowych w różnych przekrojach biznesow
 ### Widok z zastosowanymi filtrami
 
 ![Dashboard sprzedaży i marży - wybrane podkategorie](screenshot/dashboard-sprzedaz-marza-wybrane-podkategorie.png)
-
 ---
 
 ## Zawartość repozytorium
