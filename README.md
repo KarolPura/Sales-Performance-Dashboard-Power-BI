@@ -1,79 +1,113 @@
-# Sales-Performance-Dashboard-Power-BI
-Interactive Power BI dashboard for analyzing sales performance between 2020 and 2023
+# Analiza wyników sprzedaży i marży – Power BI
+
+Projekt przedstawia interaktywny dashboard stworzony w **Power BI**, umożliwiający analizę wyników sprzedaży, marży oraz realizacji KPI na poziomie kategorii i podkategorii produktów.
+
+## Cel projektu
+
+Celem projektu było przygotowanie raportu wspierającego analizę wyników sprzedażowych oraz identyfikację najbardziej rentownych grup produktowych.
+
+Dashboard umożliwia odpowiedź na pytania biznesowe, takie jak:
+
+- Które podkategorie generują najwyższą sprzedaż?
+- Które produkty osiągają najwyższą marżę?
+- Jak wygląda realizacja założonych KPI?
+- Jak zmieniała się sprzedaż w czasie?
+- Które obszary wymagają dodatkowej analizy?
 
 ---
 
-## Features
+## Wykorzystane technologie
 
-- Sales overview
-- Profit margin analysis
-- Year-over-Year (YoY) sales comparison
-- Average order value
-- Sales by region
-- Industry performance vs average sales
-- Target achievement gauge
-- Interactive filters (Year, Quarter, Region)
-
----
-
-## Technologies
-
-- Power BI
+- Power BI Desktop
 - Power Query
 - DAX
 - Microsoft Excel
 
 ---
 
-## Dashboard Preview
+## Funkcjonalności raportu
 
-### 2021
+Raport zawiera między innymi:
 
-![Dashboard 2021](Screenshots/dashboard-2021.png)
-
-### 2022
-
-![Dashboard 2022](Screenshots/dashboard-2022.png)
-
-### 2023
-
-![Dashboard 2023](Screenshots/dashboard-2023.png)
+- analizę sprzedaży według kategorii i podkategorii,
+- analizę marży oraz marży procentowej,
+- wskaźniki KPI sprzedaży i marży,
+- formatowanie warunkowe,
+- wskaźniki KPI z ikonami,
+- miniwykresy (Sparklines),
+- dynamiczne filtrowanie danych według roku, kwartału oraz podkategorii.
 
 ---
 
-## Project Structure
+## Model danych
 
-```
-Sales-Performance-Dashboard-Power-BI
-│
-├── Data
-│   └── Data.xlsx
-│
-├── Screenshots
-│   ├── dashboard-2021.png
-│   ├── dashboard-2022.png
-│   └── dashboard-2023.png
-│
-├── Sales-Performance-Dashboard.pbix
-│
-└── README.md
-```
+Raport został oparty na modelu danych obejmującym informacje o:
+
+- zamówieniach,
+- produktach,
+- klientach,
+- lokalizacjach,
+- kalendarzu.
+
+Model umożliwia analizę danych sprzedażowych w różnych przekrojach biznesowych.
 
 ---
 
-## Files
+## Podgląd dashboardu
 
-- **Sales-Performance-Dashboard.pbix** – Power BI dashboard
-- **Data/Data.xlsx** – source dataset
+### Widok główny
+
+![Dashboard sprzedaży i marży](screenshot/dashboard-sprzedaz-marza.png)
+
+### Widok z zastosowanymi filtrami
+
+![Dashboard sprzedaży i marży - wybrane podkategorie](screenshot/dashboard-sprzedaz-marza-wybrane-podkategorie.png)
 
 ---
 
-## Dashboard Highlights
+## Zawartość repozytorium
 
-- Interactive slicers
-- KPI Cards
-- Sales by Region
-- Year-over-Year Analysis
-- Industry Performance Comparison
-- Sales Target Gauge
-- Responsive Power BI layout
+- `Sales & Profitability Dashboard.pbix` – raport Power BI
+- `Data/Data.xlsx` – dane źródłowe
+- `screenshot/` – zrzuty ekranu dashboardu
+- `README.md` – opis projektu
+
+---
+
+## Najważniejsze miary DAX
+
+Projekt wykorzystuje między innymi następujące miary:
+
+- Sprzedaż
+- Marża
+- Marża %
+- Sprzedaż KPI
+- Marża KPI
+- Zmiana sprzedaży rok do roku (PY)
+- Średnia wartość zamówienia
+
+---
+
+## Wnioski biznesowe
+
+Dashboard umożliwia szybką identyfikację najbardziej rentownych kategorii i podkategorii produktów oraz ocenę realizacji celów sprzedażowych.
+
+Zastosowanie wskaźników KPI, formatowania warunkowego oraz miniwykresów pozwala szybko zidentyfikować obszary wymagające dalszej analizy i wspiera podejmowanie decyzji biznesowych.
+Dodałbym jeszcze jedną sekcję
+
+Na końcu README warto umieścić coś, co szczególnie doceniają rekruterzy:
+
+## Zakres umiejętności zaprezentowanych w projekcie
+
+W projekcie wykorzystano następujące elementy Power BI:
+
+- modelowanie danych,
+- tworzenie relacji pomiędzy tabelami,
+- projektowanie modelu w układzie gwiazdy,
+- transformacje danych w Power Query,
+- tworzenie miar w języku DAX,
+- budowę interaktywnych dashboardów,
+- projektowanie KPI,
+- formatowanie warunkowe,
+- analizę sprzedaży i marży,
+- projektowanie raportów biznesowych.
