@@ -63,15 +63,15 @@ Model został zaprojektowany w układzie gwiazdy, umożliwiając szybkie agregow
 
 ### Rok 2021
 
-![Dashboard 2021](screenshot/dashboard-2021.png)
+![Dashboard 2021](Screenshot/dashboard-2021.png)
 
 ### Rok 2022
 
-![Dashboard 2022](screenshot/dashboard-2022.png)
+![Dashboard 2022](Screenshot/dashboard-2022.png)
 
 ### Rok 2023
 
-![Dashboard 2023](screenshot/dashboard-2023.png)
+![Dashboard 2023](Screenshot/dashboard-2023.png)
 
 ---
 
