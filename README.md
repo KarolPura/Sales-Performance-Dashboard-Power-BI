@@ -1,18 +1,19 @@
-# Analiza wyników sprzedaży i marży – Power BI
+# Analiza wyników sprzedaży 2020–2023 – Power BI
 
-Projekt przedstawia interaktywny dashboard stworzony w **Power BI**, umożliwiający analizę wyników sprzedaży, marży oraz realizacji KPI na poziomie kategorii i podkategorii produktów.
+Projekt przedstawia interaktywny dashboard stworzony w **Power BI**, umożliwiający analizę wyników sprzedaży w latach 2020–2023 z wykorzystaniem wskaźników KPI, porównań do celów sprzedażowych oraz analiz regionalnych i branżowych.
 
 ## Cel projektu
 
-Celem projektu było przygotowanie raportu wspierającego analizę wyników sprzedażowych oraz identyfikację najbardziej rentownych grup produktowych.
+Celem projektu było przygotowanie raportu wspierającego monitorowanie wyników sprzedaży oraz ocenę realizacji założonych celów biznesowych.
 
 Dashboard umożliwia odpowiedź na następujące pytania biznesowe:
 
-- Które podkategorie generują najwyższą sprzedaż?
-- Które produkty osiągają najwyższą marżę?
-- Jak wygląda realizacja założonych KPI?
-- Jak zmieniała się sprzedaż w czasie?
-- Które obszary wymagają dodatkowej analizy?
+- Jak zmieniała się sprzedaż w latach 2020–2023?
+- Czy sprzedaż osiągnęła założony cel?
+- Które województwa generują najwyższą sprzedaż?
+- Które branże osiągają wyniki powyżej średniej sprzedaży?
+- Jak zmienia się średnia wartość zamówienia?
+- Jak wygląda dynamika sprzedaży rok do roku?
 
 ---
 
@@ -29,13 +30,17 @@ Dashboard umożliwia odpowiedź na następujące pytania biznesowe:
 
 Raport zawiera:
 
-- analizę sprzedaży według kategorii i podkategorii,
-- analizę marży oraz marży procentowej,
-- wskaźniki KPI sprzedaży i marży,
+- analizę sprzedaży według województw,
+- analizę sprzedaży według branż,
+- porównanie sprzedaży do średniej,
+- wskaźniki KPI,
+- analizę realizacji celu sprzedażowego,
+- dynamiczne filtrowanie danych według:
+  - roku,
+  - kwartału,
+  - województwa,
 - formatowanie warunkowe,
-- ikony KPI,
-- miniwykresy (Sparklines),
-- dynamiczne filtrowanie danych według roku, kwartału oraz podkategorii.
+- interaktywne wizualizacje.
 
 ---
 
@@ -44,31 +49,37 @@ Raport zawiera:
 Raport został oparty na modelu danych obejmującym informacje o:
 
 - zamówieniach,
-- produktach,
 - klientach,
+- produktach,
+- przedstawicielach handlowych,
 - lokalizacjach,
 - kalendarzu.
 
-Model umożliwia analizę danych sprzedażowych w różnych przekrojach biznesowych.
+Model został zaprojektowany w układzie gwiazdy, umożliwiając szybkie agregowanie danych i analizę wyników sprzedaży z różnych perspektyw.
 
 ---
 
-# Podgląd dashboardu
+## Podgląd dashboardu
 
-### Widok główny
+### Rok 2021
 
-![Sales and Profitability Dashboard](dashboard-sprzedaz-marza.png)
+![Dashboard 2021](dashboard-2021.png)
 
-### Widok z zastosowanymi filtrami
+### Rok 2022
 
-![Sales and Profitability Dashboard - Selected Subcategories](dashboard-sprzedaz-marza-wybrane-podkategorie.png)
+![Dashboard 2022](dashboard-2022.png)
+
+### Rok 2023
+
+![Dashboard 2023](dashboard-2023.png)
+
 ---
 
 ## Zawartość repozytorium
 
-- `Sales & Profitability Dashboard.pbix` – raport Power BI
-- `Data/Data.xlsx` – dane źródłowe
-- `screenshot/` – zrzuty ekranu dashboardu
+- `Sales-Performance-Dashboard.pbix` – raport Power BI
+- `Data.xlsx` – dane źródłowe
+- zrzuty ekranu dashboardu
 - `README.md` – opis projektu
 
 ---
@@ -78,34 +89,34 @@ Model umożliwia analizę danych sprzedażowych w różnych przekrojach biznesow
 Projekt wykorzystuje między innymi następujące miary:
 
 - Sprzedaż
-- Marża
 - Marża %
-- Sprzedaż KPI
-- Marża KPI
-- Zmiana sprzedaży rok do roku (PY)
 - Średnia wartość zamówienia
+- Sprzedaż vs cel
+- Zmiana sprzedaży rok do roku (PY)
+- Średnia sprzedaż według branży
+- Średnia sprzedaż według województwa
 
 ---
 
 ## Zakres zaprezentowanych umiejętności
 
-W projekcie wykorzystano:
+Projekt prezentuje umiejętności w zakresie:
 
-- modelowanie danych,
-- tworzenie relacji pomiędzy tabelami,
-- projektowanie modelu w układzie gwiazdy,
-- transformacje danych w Power Query,
-- tworzenie miar w języku DAX,
-- budowę interaktywnych dashboardów,
-- projektowanie KPI,
-- formatowanie warunkowe,
-- analizę sprzedaży i marży,
-- projektowanie raportów biznesowych.
+- modelowania danych,
+- projektowania modelu gwiazdy,
+- tworzenia relacji pomiędzy tabelami,
+- transformacji danych w Power Query,
+- tworzenia miar w języku DAX,
+- projektowania KPI,
+- analizy sprzedaży,
+- analizy danych regionalnych,
+- analizy danych branżowych,
+- projektowania interaktywnych dashboardów.
 
 ---
 
 ## Wnioski biznesowe
 
-Dashboard umożliwia szybką identyfikację najbardziej rentownych kategorii i podkategorii produktów oraz ocenę realizacji celów sprzedażowych.
+Dashboard umożliwia bieżące monitorowanie wyników sprzedaży oraz ocenę realizacji założonych celów biznesowych.
 
-Zastosowanie wskaźników KPI, formatowania warunkowego oraz miniwykresów pozwala szybko zidentyfikować obszary wymagające dalszej analizy i wspiera podejmowanie decyzji biznesowych.
+Zastosowanie wskaźników KPI, porównania do średniej sprzedaży oraz analiz regionalnych pozwala szybko zidentyfikować województwa i branże osiągające najlepsze wyniki oraz obszary wymagające dodatkowej uwagi. Raport wspiera proces podejmowania decyzji biznesowych poprzez czytelną prezentację kluczowych wskaźników efektywności.
