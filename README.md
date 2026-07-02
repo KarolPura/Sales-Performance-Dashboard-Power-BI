@@ -100,7 +100,7 @@ Projekt wykorzystuje między innymi następujące miary:
 
 ## Zakres zaprezentowanych umiejętności
 
-Projekt prezentuje umiejętności w zakresie:
+Projekt obejmował:
 
 - modelowania danych,
 - projektowania modelu gwiazdy,
