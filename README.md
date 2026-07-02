@@ -1,6 +1,8 @@
 # Sales-Performance-Dashboard-Power-BI
 Interactive Power BI dashboard for analyzing sales performance between 2020 and 2023
 
+---
+
 ## Features
 
 - Sales overview
@@ -12,6 +14,8 @@ Interactive Power BI dashboard for analyzing sales performance between 2020 and 
 - Target achievement gauge
 - Interactive filters (Year, Quarter, Region)
 
+---
+
 ## Technologies
 
 - Power BI
@@ -19,25 +23,57 @@ Interactive Power BI dashboard for analyzing sales performance between 2020 and 
 - DAX
 - Microsoft Excel
 
+---
+
 ## Dashboard Preview
-
-### Main Dashboard
-
-![Dashboard](screenshots/dashboard-overview.png)
 
 ### 2021
 
-![2021](screenshots/dashboard-2021.png)
+![Dashboard 2021](Screenshots/dashboard-2021.png)
 
 ### 2022
 
-![2022](screenshots/dashboard-2022.png)
+![Dashboard 2022](Screenshots/dashboard-2022.png)
 
 ### 2023
 
-![2023](screenshots/dashboard-2023.png)
+![Dashboard 2023](Screenshots/dashboard-2023.png)
+
+---
+
+## Project Structure
+
+```
+Sales-Performance-Dashboard-Power-BI
+│
+├── Data
+│   └── Data.xlsx
+│
+├── Screenshots
+│   ├── dashboard-2021.png
+│   ├── dashboard-2022.png
+│   └── dashboard-2023.png
+│
+├── Sales-Performance-Dashboard.pbix
+│
+└── README.md
+```
+
+---
 
 ## Files
 
-- dashboard/Sales-Dashboard.pbix
-- data/Data.xlsx
+- **Sales-Performance-Dashboard.pbix** – Power BI dashboard
+- **Data/Data.xlsx** – source dataset
+
+---
+
+## Dashboard Highlights
+
+- Interactive slicers
+- KPI Cards
+- Sales by Region
+- Year-over-Year Analysis
+- Industry Performance Comparison
+- Sales Target Gauge
+- Responsive Power BI layout
